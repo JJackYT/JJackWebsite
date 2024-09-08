@@ -1,0 +1,50 @@
+body,.sitebody{
+  background-color: black;
+  color: #33ff33;
+  padding: 0;
+  margin: 0px;
+}
+
+.navbar{
+
+}
+
+button{
+  background-color: black;
+  color: #33ff33;
+  border-radius: 0px;
+  border: 0px;
+  padding: 0;
+  offset: 0px;
+  font-size: 1em;
+  margin: 0px;
+}
+
+button:hover{
+  background-color: #33ff33;
+  color: black;
+}
+
+button:active{
+  background-color: #22ee22;
+  color: black;
+}
+
+button.navbar{
+  width:10%;
+  height: 100px;
+}
+
+.titlebutton{
+  width: 30%;
+  height: 75px;
+}
+
+a,p,h1,h2,h3,h4,span{
+  color: #33ff33;
+}
+
+
+a:active,a:visited,a:hover,a:link{
+  text-decoration: none;
+}

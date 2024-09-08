@@ -1,0 +1,15 @@
+button{
+  display: inline-block;
+}
+.counter{
+  min-height: 10em;
+  display: grid;
+  place-items: center;
+  align-content: center;
+
+}
+#decrease,#increase,#reset{
+  padding: 20px;
+  border-radius: 5px;
+  margin: 10px;
+}

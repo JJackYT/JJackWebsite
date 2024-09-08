@@ -1,0 +1,43 @@
+.body{
+  margin-top: 100px;
+  text-align: center;
+  place-items: center;
+  display: grid;
+}
+.review{
+  place-items: center;
+  height: 300px;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#previous-review,#next-review{
+  width: 20%;
+  height: 100%;
+  display: inline-block;
+}
+#previous-review{
+  float:left;
+}
+#next-review{
+  float:right;
+}
+.review-content{
+  width: 60%;
+  height: 100%;
+  display:inline-block;
+}
+button{
+  text-align: center;
+}
+#stars{
+  height: 50px;
+  place-items: center;
+}
+.star{
+  height:20px;
+  width:20px;
+  background-color: gold;
+  margin:5px;
+  display: inline-block;
+}
